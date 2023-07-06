@@ -44,9 +44,15 @@ namespace Sherbert.Framework.Generic
         {
             this.Clear();
 
-            if (keys.Count != values.Count) throw new Exception("The number of keys and values in the dictionary does not match.");
+            if (keys.Count != values.Count)
+            {
+                throw new Exception("The number of keys and values in the dictionary do not match.");
+            }
         
-            for (int i = 0; i < keys.Count; i++) this[keys[i]] = values[i];
+            for (int i = 0; i < keys.Count; i++) 
+            {
+                this[keys[i]] = values[i];
+            }
         }
     }
 }
