@@ -14,6 +14,9 @@ namespace Sherbert.Framework.Generic
     ///
     /// <code>
     /// // Example usage in a MonoBehaviour script
+    /// using UnityEngine;
+    /// using Sherbert.Framework.Generic;
+    ///
     /// public class DictionaryExample : MonoBehaviour
     /// {
     ///     [SerializeField] private SerializableDictionary<string, int> myDictionary = new();
