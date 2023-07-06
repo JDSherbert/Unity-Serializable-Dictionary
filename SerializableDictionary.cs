@@ -12,7 +12,6 @@ namespace Sherbert.Framework.Generic
     /// <see cref="ISerializationCallbackReciever"/> and 
     /// <see cref="Dictionary"/>.
     ///
-    /// Note that:
     /// <code>
     /// // Example usage in a MonoBehaviour script
     /// public class DictionaryExample : MonoBehaviour
