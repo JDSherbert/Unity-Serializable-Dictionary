@@ -17,7 +17,7 @@
 Dictionaries cannot be serialized and displayed in the Unity inspector as is. 
 This pisses me off greatly, so I decided to write a quick and dirty code class to allow Dictionary Serialization in Unity.
 
-Simply add this script to your project.
+Add this script to your project and discover the power of Dictionary Serialization.
 
 Features:
 - Allows Dictionary display in the inspector
@@ -25,6 +25,14 @@ Features:
 
 Usage:
 1. Simply add this script to your project.
+2. Example Usage:
+
+```cs
+public class DictionaryExample : MonoBehaviour
+{
+  [SerializeField] private SerializableDictionary<string, int> myDictionary = new();
+}
+```
 
  -----------------------------------------------------------------------
 ## Overview
