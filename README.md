@@ -28,6 +28,8 @@ Usage:
 2. Example Usage:
 
 ```cs
+using namespace Sherbert.Framework.Generic;
+
 public class DictionaryExample : MonoBehaviour
 {
   [SerializeField] private SerializableDictionary<string, int> myDictionary = new();
