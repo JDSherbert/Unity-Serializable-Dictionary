@@ -1,6 +1,6 @@
 ![image](https://github.com/JDSherbert/Unity-Serializable-Dictionary/assets/43964243/3e2ca8b0-06ae-4d1b-91c2-d104916eee5a)
 
-# Unity-Serializable-Dictionary
+# Unity - Serializable Dictionary
 
 <!-- Header Start -->
   <a href = "https://docs.unity.com/"> <img align="left" img height="40" img width="40" src="https://cdn.simpleicons.org/unity/white"> </a> 
