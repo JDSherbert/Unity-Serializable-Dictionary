@@ -17,6 +17,7 @@
 
   <a href="https://choosealicense.com/licenses/mit/"> 
   <img align="right" alt="License" src="https://img.shields.io/badge/License%20:%20MIT-black?style=for-the-badge&logo=mit&logoColor=white&color=black&labelColor=black"> </a>
+  
   -----------------------------------------------------------------------
 Dictionaries cannot be serialized and displayed in the Unity inspector as is. 
 This pisses me off greatly, so I decided to write a quick and dirty code class to allow Dictionary Serialization in Unity.
