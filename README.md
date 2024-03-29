@@ -47,7 +47,7 @@ public class DictionaryExample : MonoBehaviour
 
 This Serializable Dictionary class is a custom implementation that allows you to have a dictionary-like data structure with key-value pairs that can be serialized and edited in the Unity editor. It addresses the limitation of Unity's default Dictionary class, which cannot be directly serialized. To create a Serializable Dictionary, you typically create a custom class derived from MonoBehaviour or ScriptableObject and define a dictionary field inside it. You then apply serialization attributes to the dictionary field to make it visible and editable in the Unity inspector.
 
-To achieve serialization, the Serializable Dictionary class implements the ISerializationCallbackReceiver interface. This interface provides two callback methods: OnBeforeSerialize() and OnAfterDeserialize(). It also implements the IDictionary interface, allowing use of standard Dictionary behaviours.
+To achieve serialization, the Serializable Dictionary class implements the `ISerializationCallbackReceiver` interface. This interface provides two callback methods: `OnBeforeSerialize()` and `OnAfterDeserialize()`. It also implements the `IDictionary` interface, allowing use of standard Dictionary behaviours.
 
 By using the Serializable Dictionary class, you can easily create and manage key-value pairs directly in the Unity editor, allowing for dynamic customization and modification of data. This is particularly useful for scenarios where you need to store and modify structured data that should persist between editor sessions or during gameplay.
 
