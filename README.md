@@ -1,4 +1,4 @@
-![image](https://github.com/JDSherbert/Unity-Serializable-Dictionary/assets/43964243/d8a3d02d-6bff-4b43-bd3e-ef27cf96d761)
+![image](https://github.com/JDSherbert/Unity-Serializable-Dictionary/assets/43964243/bf425086-d5ad-47b6-b38c-770e903fbf0e)
 
 # Unity - Serializable Dictionary
 
