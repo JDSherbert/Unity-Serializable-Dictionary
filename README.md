@@ -60,8 +60,8 @@ public class DictionaryExample : MonoBehaviour
 If you haven't got it, I'd strongly recommend grabbing Odin Inspector to make your serialized variables look prettier.
 You can grab Odin from here:
 
-Github: https://github.com/TeamSirenix/odin-serializer
-Unity Asset Store: https://assetstore.unity.com/packages/tools/utilities/odin-inspector-and-serializer-89041
+- Github: https://github.com/TeamSirenix/odin-serializer
+- Unity Asset Store: https://assetstore.unity.com/packages/tools/utilities/odin-inspector-and-serializer-89041
 
  -----------------------------------------------------------------------
 
