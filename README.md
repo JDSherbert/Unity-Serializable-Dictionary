@@ -19,18 +19,29 @@
   <img align="right" alt="License" src="https://img.shields.io/badge/License%20:%20MIT-black?style=for-the-badge&logo=mit&logoColor=white&color=black&labelColor=black"> </a>
   
   -----------------------------------------------------------------------
+
+## Overview
+
 Dictionaries cannot be serialized and displayed in the Unity inspector as is. 
 This pisses me off greatly, so I decided to write a quick and dirty code class to allow Dictionary Serialization in Unity.
+Add this script to your project and discover the power of Dictionary Serialization!
 
-Add this script to your project and discover the power of Dictionary Serialization.
+To achieve serialization, the Serializable Dictionary class implements the `ISerializationCallbackReceiver` interface. This interface provides two callback methods: `OnBeforeSerialize()` and `OnAfterDeserialize()`. It also implements the `IDictionary` interface, allowing use of standard Dictionary behaviours.
 
-Features:
-- Allows Dictionary display in the inspector
+By using the Serializable Dictionary class, you can easily create and manage key-value pairs directly in the Unity editor, allowing for dynamic customization and modification of data. This is particularly useful for scenarios where you need to store and modify structured data that should persist between editor sessions or during gameplay.
+
+Note that while the Serializable Dictionary class provides a convenient way to work with serialized dictionaries in Unity, it is not a built-in Unity feature. I've tried my best to replicate the default Dictionary featureset but there may be some variance.
+
+### Features:
+- Allows Dictionary display in the inspector.
 - Allows values to be serialized.
+- Functions (mostly) like a standard C# Dictionary class.
 
-Usage:
+### Usage:
 1. Simply add this script to your project.
-2. Example Usage:
+2. If you haven't got it, I'd recommend grabbing [Odin Inspector](https://github.com/TeamSirenix/odin-serializer) to make it look prettier!
+
+Example Usage:
 
 ```cs
 using UnityEngine;
@@ -43,12 +54,14 @@ public class DictionaryExample : MonoBehaviour
 ```
 
  -----------------------------------------------------------------------
-## Overview
 
-This Serializable Dictionary class is a custom implementation that allows you to have a dictionary-like data structure with key-value pairs that can be serialized and edited in the Unity editor. It addresses the limitation of Unity's default Dictionary class, which cannot be directly serialized. To create a Serializable Dictionary, you typically create a custom class derived from MonoBehaviour or ScriptableObject and define a dictionary field inside it. You then apply serialization attributes to the dictionary field to make it visible and editable in the Unity inspector.
+## Prerequisites
+ 
+If you haven't got it, I'd strongly recommend grabbing Odin Inspector to make your serialized variables look prettier.
+You can grab Odin from here:
 
-To achieve serialization, the Serializable Dictionary class implements the `ISerializationCallbackReceiver` interface. This interface provides two callback methods: `OnBeforeSerialize()` and `OnAfterDeserialize()`. It also implements the `IDictionary` interface, allowing use of standard Dictionary behaviours.
+Github: https://github.com/TeamSirenix/odin-serializer
+Unity Asset Store: https://assetstore.unity.com/packages/tools/utilities/odin-inspector-and-serializer-89041
 
-By using the Serializable Dictionary class, you can easily create and manage key-value pairs directly in the Unity editor, allowing for dynamic customization and modification of data. This is particularly useful for scenarios where you need to store and modify structured data that should persist between editor sessions or during gameplay.
+ -----------------------------------------------------------------------
 
-Note that while the Serializable Dictionary class provides a convenient way to work with serialized dictionaries in Unity, it is not a built-in Unity feature.
